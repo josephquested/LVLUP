@@ -1,0 +1,33 @@
+/* tags */
+
+body {
+  font-family: 'Press Start 2P', cursive;
+  background-image: url("waves.gif");
+}
+
+/* classes */
+
+
+/* IDs */
+
+#header {
+  text-align: center;
+}
+
+#header-title {
+  font-size: 5vw;
+  margin-bottom: 10px;
+}
+
+#header-tagline {
+  font-size: 3vw;
+  margin-top: 0px;
+}
+
+#main-background {
+  background-color: #0058F8;
+  margin-right: 0px;
+  margin-left: 0px;
+  height: 150vw;
+  width: 100%;
+}
