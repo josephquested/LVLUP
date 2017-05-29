@@ -5,11 +5,6 @@ body {
   background-image: url("img/waves.gif");
 }
 
-hr {
-  width: "100%";
-}
-
-
 /* nav */
 
 a {
@@ -50,11 +45,44 @@ a:active {
   text-decoration: none;
 }
 
+/* button */
+button {
+  font-family: 'Press Start 2P', cursive;
+  color: #000000;
+  font-size: 1.5em;
+  padding: 20px 20px 20px 20px;
+  border: solid #000000 3px;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.45);
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2vw;
+  width: 100%;
+  border: 3px solid black;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+
 /* classes */
 
-.section-main {
-  text-align: center;
-  font-size: 3.5vw;
+.section-header {
+  text-align: left;
+  font-size: 1.7em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.section-p {
+  text-align: left;
+  font-size: 1.5em;
+  margin-top: 0px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 /* IDs */
@@ -67,10 +95,11 @@ a:active {
   font-size: 5vw;
 }
 
-#main-background {
-  background-color: #0058F8;
-  margin-right: 0px;
-  margin-left: 0px;
-  height: 150vw;
-  width: 100%;
+#section-body {
+  background-color: rgba(255, 255, 255, 0.45);
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2vw;
+  width: 95%;
+  border: 3px solid black;
 }
